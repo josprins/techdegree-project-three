@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Newsletter</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="top-text">
+         <h1>THE CODE REVIEW</h1>
+        </div>
+        <div class="header-text">
+            <h2>Signup for our newsletter</h2>
+            <h3>Get the latest new on how your code is doing rifht in your inbox</h3>
+        </div>
+    <form action="index.html" method="post">
+        
+        <legend class="legend">Contact information</legend>
+        <fieldset class="user-info">
+            <label  class="label" for="name">Full Name</label>
+            <input  class="center input" type="text" id="name" name="user_name" placeholder="Required">
+            <label  class="label" for="email">Email Adress</label>
+            <input  class="center input" type="email" id="email" name="email_adress" placeholder="Required">
+            <label  class="label" for="phone-number">Phone Number</label>
+            <input  class="center input" type="number" id="phone-number" name="phone-number">
+            <label class="label" for="adress">Street Adress</label>
+            <input  class="center input" type="text" id="adress" name="adress">
+            <label class="label" for="city">City</label>
+            <input  class="center input" type="text" id="city" name="city">
+            <label  class="label" for="state">State</label>
+            <select  class="center" id="state" name="user_state">
+                    <option value="choose">Choose Sate</option>
+                    <option value="alabama">Alabama</option>
+                    <option value="alaska">Alaska</option>
+                    <option value="arizona">Arizona</option>
+                    <option value="arkansas">Arkansas</option>
+                    <option value="california">California</option>
+                    <option value="colorado">Colorado</option>
+                    <option value="connecticut">Connecticut</option>
+                    <option value="delaware">Delaware</option>
+                    <option value="florida">Florida</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>           
+            </select>
+            <label class="label">Zip Code</label>
+            <input  class="center zip-code" type="text" id="zip" name="zip">   
+        </fieldset>
+        <legend >Newsletter</legend>
+        <label class="newsletter-text">Select the newsletters you would like to receive</label>
+        <fieldset class="pick-newsletter">
+            <input type="checkbox" id="html-news" value="interest-html" name="html_letter"><label class="checkbox-label" for="html-news">HTML News</label><br>
+            <input type="checkbox" id="css-news" value="interest-css" name="css-letter"><label for="css-news">CSS News</label><br>
+            <input type="checkbox" id="js-news" value="interest-js" name="js_letter"><label for="js-news">JavaScript News</label><br>
+            <div class="letter-format">
+                <label>Newsletter format</label><br>
+                <input type="radio" id="format" value="format-html" name="format-letter"><label for="format">HTML</label><br>
+                <input type="radio" id="format" value="format-letter" name="format-letter"><label for="format">CSS News</label><br>
+            </div>
+            <div class="text-area">
+                <label class="style-label">Other topics you like to hear about</label>
+                <textarea id="other-topics" name="topics-other"></textarea> 
+            </div>
+                 
+        </fieldset> 
+        <button type="submit"><div>Sign Up</div></button>
+      </form>
+      <footer><p>Copyright 2018 &copy; The Code Review</p></footer> 
+</body>
+</html>
