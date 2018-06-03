@@ -91,6 +91,7 @@ fieldset {
 
 .center {
     margin: auto;
+    margin-bottom: 10px;
 }
 
 select[class="center"],
@@ -167,6 +168,10 @@ textarea:focus {
 
 .letter-format {
     margin-top: 15px;
+}
+
+.letter-format .news-label {
+    color: #243943;
 }
 
 

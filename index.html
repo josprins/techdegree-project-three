@@ -20,15 +20,15 @@
         <fieldset class="user-info">
             <legend class="head-contact">Contact information</legend>
             <label  class="label" for="name">Full Name</label>
-            <input  class="center input" type="text" id="name" name="user_name" placeholder="Required" required>
+            <input  class="center input" type="text" id="name" name="user_name" placeholder="Required" required><br>
             <label  class="label" for="email">Email Adress</label>
-            <input  class="center input" type="email" id="email" name="email_adress" placeholder="Required" required>
+            <input  class="center input" type="email" id="email" name="email_adress" placeholder="Required" required><br>
             <label  class="label" for="phone-number">Phone Number</label>
-            <input  class="center input" type="number" id="phone-number" name="phone-number">
+            <input  class="center input" type="tel" id="phone-number" name="phone-number"><br>
             <label class="label" for="adress">Street Adress</label>
-            <input  class="center input" type="text" id="adress" name="adress">
+            <input  class="center input" type="text" id="adress" name="adress"><br>
             <label class="label" for="city">City</label>
-            <input  class="center input" type="text" id="city" name="city">
+            <input  class="center input" type="text" id="city" name="city"><br>
             <label  class="label" for="state">State</label>
             <select  class="center" id="state" name="user_state">
                     <option value="choose">Choose Sate</option>
@@ -43,18 +43,18 @@
                     <option value="florida">Florida</option>
                     <option value="georgia">Georgia</option>
                     <option value="Hawaii">Hawaii</option>           
-            </select>
+            </select><br>
             <label class="label" for="zip">Zip Code</label>
-            <input  class="center zip-code" type="text" id="zip" name="zip">   
+            <input  class="center zip-code" type="text" id="zip" name="zip">  
         </fieldset>
-        <label class="newsletter-text">Select the newsletters you would like to receive</label>
+        <h3 class="newsletter-text">Select the newsletters you would like to receive</h3>
         <fieldset class="pick-newsletter">
             <legend class="head-letter">Newsletter</legend>
             <input type="checkbox" id="html-news" value="interest-html" name="html_letter"><label class="checkbox-label" for="html-news">HTML News</label><br>
             <input type="checkbox" id="css-news" value="interest-css" name="css-letter"><label for="css-news">CSS News</label><br>
             <input type="checkbox" id="js-news" value="interest-js" name="js_letter"><label for="js-news">JavaScript News</label><br>
             <div class="letter-format">
-                <label>Newsletter format</label><br>
+                <label class="news-label">Newsletter format</label><br>
                 <input type="radio" id="html" value="format-html" name="format-letter"><label for="html">HTML</label><br>
                 <input type="radio" id="css" value="format-letter" name="format-letter"><label for="css">CSS News</label><br>
             </div>
